@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Draghi Tossici Region</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="Draghi Tossici Region">
+	<meta name="keywords" content="Draghi Tossici Region">
+	<meta name="web_author" content="Gwen Togni">
+	<meta name="copyright" content="Gwen Togni">
+	<link href="src_map/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!-- Map -->
+	<section class="container">
+
+<!-- Map -->
+		<img class="island" id="island001" onclick="island001()" src="src_map/img/mappa_razionale.png" alt="mappa">
+		<img class="island" id="island002" onclick="island002()" src="src_map/img/mappa_estremista.png" alt="mappa">
+		<img class="island" id="island003" onclick="island003()" src="src_map/img/mappa_isola.png" alt="mappa">
+
+<!-- Route -->
+		<button class="route" id="tratta01" onclick="route001()"></button>
+		<button class="route" id="tratta02" onclick="route001()"></button>
+		<button class="route" id="tratta03" onclick="route001()"></button>
+
+		<button class="route" id="tratta04" onclick="route002()"></button>
+		<button class="route" id="tratta05" onclick="route002()"></button>
+		<button class="route" id="tratta06" onclick="route002()"></button>
+
+<!-- City -->
+		<button class="city" id="city001" onclick="city001()"></button>
+		<button class="city" id="city002" onclick="city002()"></button>
+		<button class="city" id="city003" onclick="city003()"></button>
+		<button class="city" id="city004" onclick="city004()"></button>
+		<button class="city" id="city005" onclick="city005()"></button>
+		<button class="city" id="city006" onclick="city006()"></button>
+		<button class="city" id="city007" onclick="city007()"></button>
+		<button class="city" id="city008" onclick="city008()"></button>
+
+<!-- Places -->
+		<button class="place" id="grottaCeneri" onclick="place001()"></button>
+		<button class="place" id="zonaSafari" onclick="place002()"></button>
+		<button class="place" id="centrale" onclick="place003()"></button>
+		<button class="place" id="viaVittoria" onclick="place004()"></button>
+	</section>
+
+<!-- Text description -->
+	<section id="description">
+		</h3><span id="title"></span>
+		</p><span id="generic"></span>
+	</section>
+
+<!-- Leave description -->
+	<section style="height: 100vh; width: 100vh;" onclick="leaveDescription()"></section>
+
+</body>
+
+<script src="src_map/app.js"></script>
+
+</html>
