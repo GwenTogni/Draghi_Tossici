@@ -1,0 +1,603 @@
+
+html {
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: rgb(0, 50, 50);
+}
+
+img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+
+	img:hover {
+		opacity: 0.5;
+	}
+
+	img:focus {
+		opacity: 0.1;
+	}
+
+.container {
+	position: absolute;
+	margin: 5%;
+	height: 500px;
+	width: 500px;
+}
+
+#descriptionCity {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	background-color: rgb(216, 75, 32);
+	border: solid;
+	border-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+#descriptionPlace {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	background-color: rgb(229, 190, 1);
+	border: solid;
+	border-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+#descriptionRoute {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	background-color: rgb(49, 127, 67);
+	border: solid;
+	border-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+#descriptionIsland {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	background-color: rgb(30, 36, 96);
+	border: solid;
+	border-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+/* island */
+#island001 {
+	width: 455px;
+	top: 221px;
+	left: 95px;
+}
+
+#island002 {
+	width: 500px;
+	top: 300px;
+	left: 0px;
+}
+
+#island003 {
+	width: 177px;
+	top: 0px;
+	left: 0px;
+}
+
+/* city */
+.city {
+	position: absolute;
+	background-color: rgb(216, 75, 32);
+	border-radius: 20px;
+	/* border: solid;
+	border-color: rgb(255, 255, 255); */
+	height: 15px;
+	width: 15px;
+}
+
+	.city:hover {
+		background-color: rgb(255, 80, 70);
+	}
+
+	.city:focus {
+		background-color: rgb(255, 80, 70);
+	}
+
+	#city001 {
+		top: 230px;
+		left: 220px;
+	}
+
+	#city002 {
+		top: 230px;
+		left: 350px;
+	}
+
+	#city003 {
+		top: 310px;
+		left: 485px;
+	}
+
+	#city004 {
+		top: 300px;
+		left: 120px;
+	}
+
+	#city005 {
+		top: 310px;
+		left: 150px;
+	}
+
+	#city006 {
+		top: 320px;
+		left: 180px;
+	}
+
+	#city007 {
+		top: 330px;
+		left: 230px;
+	}
+
+	#city008 {
+		top: 330px;
+		left: 260px;
+	}
+
+	#city009 {
+		top: 420px;
+		left: 20px;
+	}
+
+	#city010 {
+		top: 460px;
+		left: 80px;
+	}
+
+	#city011 {
+		top: 550px;
+		left: 260px;
+	}
+
+	#city012 {
+		top: 640px;
+		left: 240px;
+	}
+
+/* route */
+.route {
+	position: absolute;
+	background: none;
+	border: none;
+}
+
+	#tratta01 {
+		border-left: 3px dotted rgb(49, 127, 67);
+		height: 205px;
+		width: 5px;
+		top: 450px;
+		left: 0px;
+	}
+	#tratta02 {
+		border-top: 3px dotted rgb(49, 127, 67);
+		height: 5px;
+		width: 145px;
+		top: 707px;
+		left: -20px;
+		transform: rotate(45deg);
+	}
+	#tratta03 {
+		border-left: 3px dotted rgb(49, 127, 67);
+		height: 100px;
+		width: 5px;
+		top: 765px;
+		left: 105px;
+	}
+
+	#tratta04 {
+		border-top: 3px dotted rgb(49, 127, 67);
+		height: 5px;
+		width: 200px;
+		top: 340px;
+		left: 290px;
+	}
+	#tratta05 {
+		border-left: 3px dotted rgb(49, 127, 67);
+		height: 95px;
+		width: 5px;
+		top: 241px;
+		left: 290px;
+	}
+	#tratta06 {
+		border-top: 3px dotted rgb(49, 127, 67);
+		height: 5px;
+		width: 90px;
+		top: 235px;
+		left: 250px;
+	}
+
+/* places */
+.place {
+	position: absolute;
+	background-color: rgb(229, 190, 1);
+	transform: rotate(-45deg);
+	border: none;
+	height: 10px;
+	width: 10px;
+}
+
+	.place:hover {
+		background-color: rgb(255, 200, 0);
+	}
+
+	.place:focus {
+		background-color: rgb(255, 200, 50);
+	}
+
+	#place001 {
+		top: 280px;
+		left: 225px;
+	}
+
+	#place002 {
+		top: 350px;
+		left: 500px;
+	}
+
+	#place003 {
+		top: 400px;
+		left: 420px;
+	}
+
+	#place004 {
+		top: 450px;
+		left: 360px;
+	}
+
+	#place005 {
+		top: 500px;
+		left: 480px;
+	}
+	
+	#place006 {
+		top: 500px;
+		left: 180px;
+	}
+
+	#place007 {
+		top: 500px;
+		left: 150px;
+	}
+
+	#place008 {
+		top: 550px;
+		left: 100px;
+	}
+
+	#place009 {
+		top: 540px;
+		left: 290px;
+	}
+
+	#place010 {
+		top: 660px;
+		left: 270px;
+	}
+
+	#place011 {
+		top: 650px;
+		left: 320px;
+	}
+
+	#place012 {
+		top: 560px;
+		left: 400px;
+	}
+
+	#place013 {
+		top: 620px;
+		left: 380px;
+	}
+
+	#place014 {
+		top: 60px;
+		left: 50px;
+	}
+	#place015 {
+		top: 130px;
+		left: 80px;
+	}
+
+
+/* Responsive versione mobile */
+/* @media only screen and (max-width: 600px) {
+	#description {
+		margin-top: 420px;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		max-width: 80%;
+		border: none;
+	}
+
+	img {
+		height: 360px;
+		margin-top: 30px;
+		margin-left: 30px;
+	}
+
+/* City */
+	/* #Stabio {
+		height: 15px;
+		width: 15px;
+		margin-top: 372px;
+		margin-left: 210px;
+	}
+
+	#Chiasso {
+		height: 15px;
+		width: 15px;
+		margin-top: 372px;
+		margin-left: 240px;
+	}
+
+	#Mendrisio {
+		height: 15px;
+		width: 30px;
+		margin-top: 350px;
+		margin-left: 228px;
+	}
+
+	#Campione {
+		height: 15px;
+		width: 15px;
+		margin-top: 325px;
+		margin-left: 228px;
+	}
+
+	#Lugano {
+		height: 30px;
+		width: 15px;
+		margin-top: 285px;
+		margin-left: 205px;
+	}
+
+	#Rivera {
+		height: 15px;
+		width: 15px;
+		margin-top: 255px;
+		margin-left: 205px;
+	}
+
+	#Bellinzona {
+		height: 15px;
+		width: 30px;
+		margin-top: 205px;
+		margin-left: 205px;
+	}
+
+	#Tenero {
+		height: 15px;
+		width: 15px;
+		margin-top: 220px;
+		margin-left: 170px;
+	}
+
+	#Locarno {
+		height: 15px;
+		width: 30px;
+		margin-top: 220px;
+		margin-left: 120px;
+	}
+
+	#Sonogno {
+		height: 15px;
+		width: 15px;
+		margin-top: 150px;
+		margin-left: 170px;
+	}
+
+	#Maggia {
+		height: 15px;
+		width: 15px;
+		margin-top: 180px;
+		margin-left: 120px;
+	}
+
+	#Biasca {
+		height: 15px;
+		width: 15px;
+		margin-top: 140px;
+		margin-left: 205px;
+	}
+
+	#Ambrì {
+		height: 15px;
+		width: 15px;
+		margin-top: 90px;
+		margin-left: 150px;
+	}
+
+	#Airolo {
+		height: 15px;
+		width: 15px;
+		margin-top: 90px;
+		margin-left: 90px;
+	}
+
+	#Gottardo {
+		height: 15px;
+		width: 15px;
+		margin-top: 50px;
+		margin-left: 90px;
+	}
+
+/* route 
+	#route001 {
+		height: 15px;
+		width: 20px;
+		margin-top: 372px;
+		margin-left: 225px;
+	}
+
+	#route002 {
+		height: 12px;
+		width: 15px;
+		margin-top: 360px;
+		margin-left: 228px;
+	}
+
+	#route003 {
+		height: 30px;
+		width: 15px;
+		margin-top: 330px;
+		margin-left: 228px;
+	}
+
+	#route004 {
+		height: 15px;
+		width: 30px;
+		margin-top: 325px;
+		margin-left: 205px;
+	}
+
+	#route005 {
+		height: 15px;
+		width: 15px;
+		margin-top: 310px;
+		margin-left: 205px;
+	}
+
+	#route006 {
+		height: 25px;
+		width: 15px;
+		margin-top: 265px;
+		margin-left: 205px;
+	}
+
+	#route007 {
+		height: 45px;
+		width: 15px;
+		margin-top: 215px;
+		margin-left: 205px;
+	}
+
+	#route008 {
+		height: 15px;
+		width: 25px;
+		margin-top: 220px;
+		margin-left: 180px;
+	}
+
+	#route009 {
+		height: 60px;
+		width: 15px;
+		margin-top: 160px;
+		margin-left: 170px;
+	}
+
+	#route010 {
+		height: 15px;
+		width: 55px;
+		margin-top: 150px;
+		margin-left: 120px;
+	}
+
+	#route011 {
+		height: 40px;
+		width: 15px;
+		margin-top: 150px;
+		margin-left: 120px;
+	}
+
+	#route012 {
+		height: 35px;
+		width: 15px;
+		margin-top: 190px;
+		margin-left: 120px;
+	}
+
+	#route013 {
+		height: 15px;
+		width: 30px;
+		margin-top: 220px;
+		margin-left: 145px;
+	}
+
+	#route014 {
+		height: 60px;
+		width: 15px;
+		margin-top: 150px;
+		margin-left: 205px;
+	}
+
+	#route015 {
+		height: 55px;
+		width: 15px;
+		margin-top: 90px;
+		margin-left: 205px;
+	}
+
+	#route016 {
+		height: 15px;
+		width: 55px;
+		margin-top: 90px;
+		margin-left: 150px;
+	}
+
+	#route017 {
+		height: 15px;
+		width: 55px;
+		margin-top: 90px;
+		margin-left: 100px;
+	}
+
+	#route018 {
+		height: 50px;
+		width: 15px;
+		margin-top: 55px;
+		margin-left: 90px;
+	}
+
+/* places 
+	#grottaCeneri {
+		height: 15px;
+		width: 15px;
+		margin-top: 240px;
+		margin-left: 205px;
+	}
+
+	#zonaSafari {
+		height: 15px;
+		width: 15px;
+		margin-top: 235px;
+		margin-left: 180px;
+	}
+
+	#centrale {
+		height: 15px;
+		width: 15px;
+		margin-top: 75px;
+		margin-left: 170px;
+	}
+
+	#viaVittoria {
+		height: 15px;
+		width: 15px;
+		margin-top: 65px;
+		margin-left: 90px;
+	}
+
+} */

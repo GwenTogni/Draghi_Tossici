@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Draghi Tossici Region</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="Draghi Tossici Region">
+	<meta name="keywords" content="Draghi Tossici Region">
+	<meta name="web_author" content="Gwen Togni">
+	<meta name="copyright" content="Gwen Togni">
+	<link href="src_map/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!-- Map -->
+	<section class="container">
+
+<!-- Map -->
+		<img class="island" id="island001" onclick="island001()" src="src_map/img/mappa_razionale.png" alt="mappa">
+		<img class="island" id="island002" onclick="island002()" src="src_map/img/mappa_estremista.png" alt="mappa">
+		<img class="island" id="island003" onclick="island003()" src="src_map/img/mappa_isola.png" alt="mappa">
+
+<!-- Route -->
+		<div class="route" id="tratta01" onclick="route001()"></div>
+		<div class="route" id="tratta02" onclick="route001()"></div>
+		<div class="route" id="tratta03" onclick="route001()"></div>
+
+		<div class="route" id="tratta04" onclick="route002()"></div>
+		<div class="route" id="tratta05" onclick="route002()"></div>
+		<div class="route" id="tratta06" onclick="route002()"></div>
+
+<!-- City -->
+		<div class="city" id="city001" onclick="city001()"></div>
+		<div class="city" id="city002" onclick="city002()"></div>
+		<div class="city" id="city003" onclick="city003()"></div>
+		<div class="city" id="city004" onclick="city004()"></div>
+		<div class="city" id="city005" onclick="city005()"></div>
+		<div class="city" id="city006" onclick="city006()"></div>
+		<div class="city" id="city007" onclick="city007()"></div>
+		<div class="city" id="city008" onclick="city008()"></div>
+
+		<div class="city" id="city009" onclick="city009()"></div>
+		<div class="city" id="city010" onclick="city010()"></div>
+		<div class="city" id="city011" onclick="city011()"></div>
+		<div class="city" id="city012" onclick="city012()"></div>
+
+<!-- Places -->
+		<div class="place" id="place001" onclick="place001()"></div>
+		<div class="place" id="place002" onclick="place002()"></div>
+		<div class="place" id="place003" onclick="place003()"></div>
+		<div class="place" id="place004" onclick="place004()"></div>
+		<div class="place" id="place005" onclick="place005()"></div>
+
+		<div class="place" id="place006" onclick="place006()"></div>
+		<div class="place" id="place007" onclick="place007()"></div>
+		<div class="place" id="place008" onclick="place008()"></div>
+		<div class="place" id="place009" onclick="place009()"></div>
+		<div class="place" id="place010" onclick="place010()"></div>
+		<div class="place" id="place011" onclick="place011()"></div>
+		<div class="place" id="place012" onclick="place012()"></div>
+		<div class="place" id="place013" onclick="place013()"></div>
+
+		<div class="place" id="place014" onclick="place014()"></div>
+		<div class="place" id="place015" onclick="place015()"></div>
+	</section>
+
+<!-- Text description -->
+	<section id="descriptionPlace">
+		</h3><span id="titlePlace"></span>
+		</p><span id="textPlace"></span>
+	</section>
+
+	<section id="descriptionRoute">
+		</h3><span id="titleRoute"></span>
+		</p><span id="textRoute"></span>
+	</section>
+
+	<section id="descriptionIsland">
+		</h3><span id="titleIsland"></span>
+		</p><span id="textIsland"></span>
+	</section>
+
+	<section id="descriptionCity">
+		</h3><span id="titleCity"></span>
+		</p><span id="textCity"></span>
+	</section>
+
+<!-- Leave description -->
+	<section style="height: 100vh; width: 100vh;" onclick="leaveDescription()"></section>
+
+</body>
+
+<script src="src_map/app.js"></script>
+
+</html>
