@@ -5,13 +5,10 @@ html {
 	background-color: rgb(0, 50, 50);
 }
 
-span {
+/* span {
 	color: rgb(0, 0, 0);
-}
+} */
 
-#title {
-	font-size: 18pt;
-}
 
 img {
 	position: absolute;
@@ -35,12 +32,45 @@ img {
 	width: 500px;
 }
 
-#description {
+#descriptionCity {
 	position: absolute;
 	top: 300px;
 	left: 800px;
-	width: 300px;
+	background-color: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+#descriptionPlace {
+	position: absolute;
+	top: 300px;
+	left: 800px;
 	background-color: rgb(255, 200, 0);
+	color: rgb(0, 0, 0);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+#descriptionRoute {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	background-color: rgb(49, 127, 67);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	padding: 20px;
+	display: none;
+}
+
+#descriptionIsland {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	background-color: rgb(0, 0, 255);
+	color: rgb(255, 255, 255);
 	border-radius: 3px;
 	padding: 20px;
 	display: none;
@@ -70,7 +100,11 @@ img {
 	position: absolute;
 	background-color: rgb(255, 0, 0);
 	border-radius: 20px;
-	border: none;
+	/* transform: rotate(45deg); */
+	border: solid;
+	border-color: rgb(255, 150, 150);
+	height: 15px;
+	width: 15px;
 }
 
 	.city:hover {
@@ -82,57 +116,61 @@ img {
 	}
 
 	#city001 {
-		height: 22px;
-		width: 22px;
 		top: 230px;
 		left: 220px;
 	}
 
 	#city002 {
-		height: 22px;
-		width: 22px;
 		top: 230px;
 		left: 350px;
 	}
 
 	#city003 {
-		height: 22px;
-		width: 22px;
-		top: 300px;
-		left: 480px;
+		top: 310px;
+		left: 485px;
 	}
 
 	#city004 {
-		height: 22px;
-		width: 22px;
 		top: 300px;
 		left: 120px;
 	}
 
 	#city005 {
-		height: 22px;
-		width: 22px;
 		top: 310px;
 		left: 150px;
 	}
 
 	#city006 {
-		height: 22px;
-		width: 22px;
 		top: 320px;
 		left: 180px;
 	}
 
 	#city007 {
-		height: 22px;
-		width: 22px;
 		top: 330px;
 		left: 230px;
 	}
 
 	#city008 {
-		height: 22px;
-		width: 22px;
+		top: 330px;
+		left: 260px;
+	}
+
+	#city009 {
+		top: 420px;
+		left: 20px;
+	}
+
+	#city010 {
+		top: 330px;
+		left: 260px;
+	}
+
+	#city011 {
+		top: 330px;
+		left: 260px;
+	}
+
+	#city012 {
 		top: 330px;
 		left: 260px;
 	}
@@ -145,21 +183,21 @@ img {
 }
 
 	#tratta01 {
-		border-left: 5px dotted rgb(49, 127, 67);
-		height: 250px;
+		border-left: 3px dotted rgb(49, 127, 67);
+		height: 253px;
 		width: 5px;
 		top: 450px;
 		left: 0px;
 	}
 	#tratta02 {
-		border-top: 5px dotted rgb(49, 127, 67);
+		border-top: 3px dotted rgb(49, 127, 67);
 		height: 5px;
-		width: 100px;
+		width: 103px;
 		top: 705px;
 		left: 0px;
 	}
 	#tratta03 {
-		border-left: 5px dotted rgb(49, 127, 67);
+		border-left: 3px dotted rgb(49, 127, 67);
 		height: 150px;
 		width: 5px;
 		top: 705px;
@@ -167,21 +205,21 @@ img {
 	}
 
 	#tratta04 {
-		border-top: 5px dotted rgb(49, 127, 67);
+		border-top: 3px dotted rgb(49, 127, 67);
 		height: 5px;
 		width: 200px;
 		top: 340px;
 		left: 290px;
 	}
 	#tratta05 {
-		border-left: 5px dotted rgb(49, 127, 67);
-		height: 90px;
+		border-left: 3px dotted rgb(49, 127, 67);
+		height: 95px;
 		width: 5px;
-		top: 245px;
+		top: 241px;
 		left: 290px;
 	}
 	#tratta06 {
-		border-top: 5px dotted rgb(49, 127, 67);
+		border-top: 3px dotted rgb(49, 127, 67);
 		height: 5px;
 		width: 90px;
 		top: 235px;
@@ -192,8 +230,11 @@ img {
 .place {
 	position: absolute;
 	background-color: rgb(255, 200, 0);
-	border-radius: 20px;
-	border: none;
+	transform: rotate(-45deg);
+	border: solid;
+	border-color: rgb(255, 255, 200);
+	height: 10px;
+	width: 10px;
 }
 
 	.place:hover {
@@ -204,32 +245,29 @@ img {
 		background-color: rgb(255, 230, 50);
 	}
 
-	#grottaCeneri {
-		height: 15px;
-		width: 15px;
-		margin-top: 525px;
-		margin-left: 533.5px;
+	#place001 {
+		top: 280px;
+		left: 225px;
 	}
 
-	#zonaSafari {
-		height: 15px;
-		width: 15px;
-		margin-top: 490px;
-		margin-left: 490px;
+	#place002 {
+		top: 350px;
+		left: 500px;
 	}
 
-	#centrale {
-		height: 15px;
-		width: 15px;
-		margin-top: 208px;
-		margin-left: 470px;
+	#place003 {
+		top: 400px;
+		left: 420px;
 	}
 
-	#viaVittoria {
-		height: 15px;
-		width: 15px;
-		margin-top: 150px;
-		margin-left: 303.5px;
+	#place004 {
+		top: 450px;
+		left: 360px;
+	}
+
+	#place005 {
+		top: 500px;
+		left: 480px;
 	}
 
 
