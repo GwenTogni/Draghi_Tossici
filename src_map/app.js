@@ -164,6 +164,89 @@ function place005(){
   document.getElementById('textPlace').innerHTML = '';
 }
 
+function place006(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'SORGENTE DI ACQUA VEGANA';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place007(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'MONTI DEGLI EREMITI';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place008(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'GIUNGLA DEI CANNIBALI FRUTTARIANI';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place009(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'MONTE TOFU';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place010(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'SPIAGGIA CRUDISTA';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place011(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'BAIA DELLE PERLE (AH NO, DEI CECI)';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place012(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'FORESTA DELLE PIANTE SOFFERENTI';
+  document.getElementById('textPlace').innerHTML = '';
+}
+function place013(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'ALLEVAMENTI INTENSIVI DI SOIA';
+  document.getElementById('textPlace').innerHTML = '';
+}
+
+function place014(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'GHIACCIAIO';
+  document.getElementById('textPlace').innerHTML = '';
+}
+
+function place015(){
+  document.getElementById('descriptionPlace').style.display = "block";
+  document.getElementById('descriptionCity').style.display = "none";
+  document.getElementById('descriptionIsland').style.display = "none";
+  document.getElementById('descriptionRoute').style.display = "none";
+  document.getElementById('titlePlace').innerHTML = 'SPIAGGIA ARCOBALENO';
+  document.getElementById('textPlace').innerHTML = '(A CAUSA DEL GASOLIO)';
+}
+
 /* Text description island */
 function island001(){
   document.getElementById('descriptionIsland').style.display = "block";

@@ -5,11 +5,6 @@ html {
 	background-color: rgb(0, 50, 50);
 }
 
-/* span {
-	color: rgb(0, 0, 0);
-} */
-
-
 img {
 	position: absolute;
 	top: 0px;
@@ -36,8 +31,10 @@ img {
 	position: absolute;
 	top: 300px;
 	left: 800px;
-	background-color: rgb(255, 0, 0);
-	color: rgb(255, 255, 255);
+	background-color: rgb(216, 75, 32);
+	border: solid;
+	border-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 	border-radius: 3px;
 	padding: 20px;
 	display: none;
@@ -47,7 +44,9 @@ img {
 	position: absolute;
 	top: 300px;
 	left: 800px;
-	background-color: rgb(255, 200, 0);
+	background-color: rgb(229, 190, 1);
+	border: solid;
+	border-color: rgb(0, 0, 0);
 	color: rgb(0, 0, 0);
 	border-radius: 3px;
 	padding: 20px;
@@ -59,6 +58,8 @@ img {
 	top: 300px;
 	left: 800px;
 	background-color: rgb(49, 127, 67);
+	border: solid;
+	border-color: rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 	border-radius: 3px;
 	padding: 20px;
@@ -69,7 +70,9 @@ img {
 	position: absolute;
 	top: 300px;
 	left: 800px;
-	background-color: rgb(0, 0, 255);
+	background-color: rgb(30, 36, 96);
+	border: solid;
+	border-color: rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 	border-radius: 3px;
 	padding: 20px;
@@ -98,21 +101,20 @@ img {
 /* city */
 .city {
 	position: absolute;
-	background-color: rgb(255, 0, 0);
+	background-color: rgb(216, 75, 32);
 	border-radius: 20px;
-	/* transform: rotate(45deg); */
-	border: solid;
-	border-color: rgb(255, 150, 150);
+	/* border: solid;
+	border-color: rgb(255, 255, 255); */
 	height: 15px;
 	width: 15px;
 }
 
 	.city:hover {
-		background-color: rgb(200, 0, 0);
+		background-color: rgb(255, 80, 70);
 	}
 
 	.city:focus {
-		background-color: rgb(255, 80, 80);
+		background-color: rgb(255, 80, 70);
 	}
 
 	#city001 {
@@ -161,18 +163,18 @@ img {
 	}
 
 	#city010 {
-		top: 330px;
-		left: 260px;
+		top: 460px;
+		left: 80px;
 	}
 
 	#city011 {
-		top: 330px;
+		top: 550px;
 		left: 260px;
 	}
 
 	#city012 {
-		top: 330px;
-		left: 260px;
+		top: 640px;
+		left: 240px;
 	}
 
 /* route */
@@ -184,7 +186,7 @@ img {
 
 	#tratta01 {
 		border-left: 3px dotted rgb(49, 127, 67);
-		height: 253px;
+		height: 205px;
 		width: 5px;
 		top: 450px;
 		left: 0px;
@@ -192,15 +194,16 @@ img {
 	#tratta02 {
 		border-top: 3px dotted rgb(49, 127, 67);
 		height: 5px;
-		width: 103px;
-		top: 705px;
-		left: 0px;
+		width: 145px;
+		top: 707px;
+		left: -20px;
+		transform: rotate(45deg);
 	}
 	#tratta03 {
 		border-left: 3px dotted rgb(49, 127, 67);
-		height: 150px;
+		height: 100px;
 		width: 5px;
-		top: 705px;
+		top: 765px;
 		left: 105px;
 	}
 
@@ -229,20 +232,19 @@ img {
 /* places */
 .place {
 	position: absolute;
-	background-color: rgb(255, 200, 0);
+	background-color: rgb(229, 190, 1);
 	transform: rotate(-45deg);
-	border: solid;
-	border-color: rgb(255, 255, 200);
+	border: none;
 	height: 10px;
 	width: 10px;
 }
 
 	.place:hover {
-		background-color: rgb(200, 150, 0);
+		background-color: rgb(255, 200, 0);
 	}
 
 	.place:focus {
-		background-color: rgb(255, 230, 50);
+		background-color: rgb(255, 200, 50);
 	}
 
 	#place001 {
@@ -268,6 +270,55 @@ img {
 	#place005 {
 		top: 500px;
 		left: 480px;
+	}
+	
+	#place006 {
+		top: 500px;
+		left: 180px;
+	}
+
+	#place007 {
+		top: 500px;
+		left: 150px;
+	}
+
+	#place008 {
+		top: 550px;
+		left: 100px;
+	}
+
+	#place009 {
+		top: 540px;
+		left: 290px;
+	}
+
+	#place010 {
+		top: 660px;
+		left: 270px;
+	}
+
+	#place011 {
+		top: 650px;
+		left: 320px;
+	}
+
+	#place012 {
+		top: 560px;
+		left: 400px;
+	}
+
+	#place013 {
+		top: 620px;
+		left: 380px;
+	}
+
+	#place014 {
+		top: 60px;
+		left: 50px;
+	}
+	#place015 {
+		top: 130px;
+		left: 80px;
 	}
 
 
