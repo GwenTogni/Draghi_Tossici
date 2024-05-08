@@ -12,64 +12,64 @@ function city001(){
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'IMPRESA DEFORESTAZIONE CONSAPEVOLE';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'IDC';
+  document.getElementById('textCity').innerHTML = 'Impresa Deforestazione Consapevole';
 }
 function city002(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'AEREOPORTO GREEN AIR';
-  document.getElementById('textCity').innerHTML = 'VOLI GREEN E LOW-COST VERSO TUTTO IL MONDO!';
+  document.getElementById('titleCity').innerHTML = 'GREEN-AIR';
+  document.getElementById('textCity').innerHTML = 'Aereoporto intercontinentale. Voli green e low-cost verso tutto il mondo!';
 }
 function city003(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'DITTA FAST FASHION LOCAL & GREEN';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = '';
+  document.getElementById('textCity').innerHTML = 'Ditta fast-fashion local & green';
 }
 function city004(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'FABBRICA DI ALU 100% RICICLABILE';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'ALU100';
+  document.getElementById('textCity').innerHTML = 'Fabbrica di ALU 100% riciclabile';
 }
 function city005(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'MACELLO ECO-FRIENDLY';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'SALUMERIA SALMONELLA';
+  document.getElementById('textCity').innerHTML = 'Macello eco-friendly';
 }
 function city006(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'LABORATORIO VIVISEZIONE ETICA';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'VIVI-LAB';
+  document.getElementById('textCity').innerHTML = 'Laboratorio vivisezione etica';
 }
 function city007(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'INCENERITORE ARTIGIANALE';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = '';
+  document.getElementById('textCity').innerHTML = 'Inceneritore artigianale';
 }
 function city008(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'VILLAGGIO FONTE DELLA VITA ETERNIT';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'ETERNIT';
+  document.getElementById('textCity').innerHTML = 'Villaggio fonte della vita eternit';
 }
 
 function city009(){
@@ -77,15 +77,15 @@ function city009(){
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'PORTO DEI VANDALI AMBIENTALISTI';
-  document.getElementById('textCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'REBEL LAND';
+  document.getElementById('textCity').innerHTML = 'Porto dei vandali ambientalisti';
 }
 function city010(){
   document.getElementById('descriptionCity').style.display = "block";
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titleCity').innerHTML = 'INDUSTRIE ALIMENTI SINTETICI OGM';
-  document.getElementById('textCity').innerHTML = '(RISO VEGANO, PASTA VEGANA, MARMELLATA VEGANA)';
+  document.getElementById('titleCity').innerHTML = 'OGM SINT.';
+  document.getElementById('textCity').innerHTML = 'Industrie alimeti sintetici OGM (riso vegano, pasta vegana, marmellata vegana)';
 }
 function city011(){
   document.getElementById('descriptionCity').style.display = "block";
@@ -118,8 +118,8 @@ function route002(){
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "block";
-  document.getElementById('titleRoute').innerHTML = 'TRATTA DEGLI SCHIAVI PER IMPORTARE CIBO VEGANO';
-  document.getElementById('textRoute').innerHTML = '';
+  document.getElementById('titleRoute').innerHTML = '';
+  document.getElementById('textRoute').innerHTML = 'Tratta degli schiavi per importare cibo vegano';
 }
 
 /* Text description places */
@@ -128,40 +128,40 @@ function place001(){
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'ESTRATTORI DI PETROLIO 100% NATURALE';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = '';
+  document.getElementById('textPlace').innerHTML = 'Estrattori di petrolio 100% naturale';
 }
 function place002(){
   document.getElementById('descriptionPlace').style.display = "block";
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'DISCARICA AL Km 0';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = '';
+  document.getElementById('textPlace').innerHTML = 'Discarica al km 0';
 }
 function place003(){
   document.getElementById('descriptionPlace').style.display = "block";
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'ALPI DELLE MUCCHE FELICI';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'WAKKENBERG';
+  document.getElementById('textPlace').innerHTML = 'Alpi delle mucche felici';
 }
 function place004(){
   document.getElementById('descriptionPlace').style.display = "block";
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'COLTIVAZIONI DI SALMONI';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'SALMON FARM';
+  document.getElementById('textPlace').innerHTML = 'Coltivazioni di salmoni';
 }
 function place005(){
   document.getElementById('descriptionPlace').style.display = "block";
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'PIANTAGIONI DI POLLI';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'PAUL FARM';
+  document.getElementById('textPlace').innerHTML = 'Piantagioni di polli';
 }
 
 function place006(){
@@ -169,8 +169,8 @@ function place006(){
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'SORGENTE DI ACQUA VEGANA';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'Vwater';
+  document.getElementById('textPlace').innerHTML = 'Sorgente di acqua vegana';
 }
 function place007(){
   document.getElementById('descriptionPlace').style.display = "block";
@@ -185,8 +185,8 @@ function place008(){
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'GIUNGLA DEI CANNIBALI FRUTTARIANI';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'DINO JUNGLE';
+  document.getElementById('textPlace').innerHTML = 'Giungla dei cannibali fruttariani';
 }
 function place009(){
   document.getElementById('descriptionPlace').style.display = "block";
@@ -209,8 +209,8 @@ function place011(){
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'BAIA DELLE PERLE (AH NO, DEI CECI)';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'BAIA DELLE PERLE';
+  document.getElementById('textPlace').innerHTML = '(Ah, no, dei ceci)';
 }
 function place012(){
   document.getElementById('descriptionPlace').style.display = "block";
@@ -225,8 +225,8 @@ function place013(){
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'ALLEVAMENTI INTENSIVI DI SOIA';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = '';
+  document.getElementById('textPlace').innerHTML = 'Allevamenti intensivi di soia';
 }
 
 function place014(){
@@ -244,7 +244,7 @@ function place015(){
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('titlePlace').innerHTML = 'SPIAGGIA ARCOBALENO';
-  document.getElementById('textPlace').innerHTML = '(A CAUSA DEL GASOLIO)';
+  document.getElementById('textPlace').innerHTML = '(A causa del gasolio)';
 }
 
 /* Text description island */
