@@ -120,17 +120,17 @@ button {
 	}
 
 	#city004 {
-		top: 2000px;
+		top: 2200px;
 		left: 900px;
 	}
 
 	#city005 {
-		top: 2100px;
+		top: 2300px;
 		left: 1100px;
 	}
 
 	#city006 {
-		top: 2200px;
+		top: 2400px;
 		left: 1400px;
 	}
 
@@ -204,8 +204,8 @@ button {
 	}
 
 	#place001 {
-		top: 2800px;
-		left: 2250px;
+		top: 1900px;
+		left: 1300px;
 	}
 
 	#place002 {
@@ -228,10 +228,10 @@ button {
 		left: 2100px;
 	}
 	
-	/* #place006 {
-		top: 500px;
-		left: 180px;
-	} */
+	#place006 {
+		top: 3600px;
+		left: 1000px;
+	}
 
 	#place007 {
 		top: 3200px;
