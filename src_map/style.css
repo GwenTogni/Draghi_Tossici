@@ -280,34 +280,15 @@ button {
 
 
 /* Responsive versione mobile */
-/* @media only screen and (max-width: 600px) {
-	#descriptionCity {
-		margin-top: 820px;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		max-width: 80%;
-		border: none;
-	}
-	#descriptionPlace {
-		margin-top: 420px;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		max-width: 80%;
-		border: none;
-	}
-	#descriptionIsland {
-		margin-top: 420px;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		max-width: 80%;
-		border: none;
-	}
-	#descriptionRoute {
-		margin-top: 420px;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		max-width: 80%;
-		border: none;
+@media only screen and (max-width: 600px) {
+	.description {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
 	}
 
-} */
+	.container {
+		top: 20%;
+	}
+}
