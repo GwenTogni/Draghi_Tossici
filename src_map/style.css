@@ -160,8 +160,8 @@ button {
 	}
 
 	#city012 {
-		top: 4250px;
-		left: 1000px;
+		top: 4200px;
+		left: 1150px;
 	}
 
 /* route */
@@ -248,10 +248,10 @@ button {
 		left: 1400px;
 	}
 
-	/* #place010 {
-		top: 5000px;
-		left: 2000px;
-	} */
+	#place010 {
+		top: 4300px;
+		left: 800px;
+	}
 
 	#place011 {
 		top: 4450px;
@@ -274,7 +274,7 @@ button {
 	}
 
 	#place015 {
-		top: 465px;
+		top: 480px;
 		left: -245px;
 	}
 
