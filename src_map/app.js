@@ -60,7 +60,7 @@ function city007(){
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
-  document.getElementById('titleCity').innerHTML = '';
+  document.getElementById('titleCity').innerHTML = 'GREEN FIRE';
   document.getElementById('textCity').innerHTML = 'Inceneritore artigianale';
 }
 function city008(){
@@ -217,15 +217,15 @@ function place012(){
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = 'FORESTA DELLE PIANTE SOFFERENTI';
-  document.getElementById('textPlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'IL SALICE PIANGENTE';
+  document.getElementById('textPlace').innerHTML = 'Foresta delle piante sofferenti';
 }
 function place013(){
   document.getElementById('descriptionPlace').style.display = "block";
   document.getElementById('descriptionCity').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "none";
-  document.getElementById('titlePlace').innerHTML = '';
+  document.getElementById('titlePlace').innerHTML = 'SOY FACTORY';
   document.getElementById('textPlace').innerHTML = 'Allevamenti intensivi di soia';
 }
 
