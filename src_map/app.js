@@ -110,7 +110,7 @@ function route001(){
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "block";
-  document.getElementById('titleRoute').innerHTML = 'TRATTA DEGLI SCHIAVI PER IMPORTARE CIBO VEGANO';
+  document.getElementById('titleRoute').innerHTML = 'AUTOSTRADA IN ECO-ASFALTO';
   document.getElementById('textRoute').innerHTML = '';
 }
 function route002(){
@@ -118,7 +118,7 @@ function route002(){
   document.getElementById('descriptionPlace').style.display = "none";
   document.getElementById('descriptionIsland').style.display = "none";
   document.getElementById('descriptionRoute').style.display = "block";
-  document.getElementById('titleRoute').innerHTML = 'AUTOSTRADA IN ECO-ASFALTO';
+  document.getElementById('titleRoute').innerHTML = 'TRATTA DEGLI SCHIAVI PER IMPORTARE CIBO VEGANO';
   document.getElementById('textRoute').innerHTML = '';
 }
 
