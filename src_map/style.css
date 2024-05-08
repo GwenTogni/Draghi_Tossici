@@ -9,7 +9,7 @@ img {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 	img:hover {
@@ -17,7 +17,7 @@ img {
 	}
 
 	img:focus {
-		opacity: 0.1;
+		opacity: 0.3;
 	}
 
 .container {
@@ -27,60 +27,45 @@ img {
 	width: 500px;
 }
 
-#descriptionCity {
+/* text description */
+.description {
 	position: absolute;
-	top: 300px;
-	left: 800px;
-	background-color: rgb(216, 75, 32);
-	border: solid;
-	border-color: rgb(0, 0, 0);
-	color: rgb(0, 0, 0);
+	top: 5%;
+	right: 5%;
+	max-width: 500px;
 	border-radius: 3px;
 	padding: 20px;
 	display: none;
+	border: solid;
+}
+
+#descriptionCity {
+	background-color: rgb(216, 75, 32);
+	border-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 }
 
 #descriptionPlace {
-	position: absolute;
-	top: 300px;
-	left: 800px;
 	background-color: rgb(229, 190, 1);
-	border: solid;
 	border-color: rgb(0, 0, 0);
 	color: rgb(0, 0, 0);
-	border-radius: 3px;
-	padding: 20px;
-	display: none;
 }
 
 #descriptionRoute {
-	position: absolute;
-	top: 300px;
-	left: 800px;
 	background-color: rgb(49, 127, 67);
-	border: solid;
 	border-color: rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
-	border-radius: 3px;
-	padding: 20px;
-	display: none;
 }
 
 #descriptionIsland {
-	position: absolute;
-	top: 300px;
-	left: 800px;
 	background-color: rgb(30, 36, 96);
-	border: solid;
 	border-color: rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
-	border-radius: 3px;
-	padding: 20px;
-	display: none;
 }
 
 /* island */
 #island001 {
+	/* background-image: url("img/mappa_razionale.png"); */
 	width: 455px;
 	top: 221px;
 	left: 95px;
@@ -102,16 +87,19 @@ img {
 .city {
 	position: absolute;
 	background-color: rgb(216, 75, 32);
+	border: none;
 	height: 15px;
 	width: 15px;
 }
 
 	.city:hover {
-		background-color: rgb(255, 80, 70);
+		opacity: 0.5;
 	}
 
 	.city:focus {
-		background-color: rgb(255, 80, 70);
+		border: solid;
+		border-color: rgb(255, 255, 255);
+		opacity: 1;
 	}
 
 	#city001 {
@@ -181,6 +169,10 @@ img {
 	border: none;
 }
 
+	.route:hover {
+		opacity: 0.5;
+	}
+
 	#tratta01 {
 		border-left: 3px dotted rgb(49, 127, 67);
 		height: 205px;
@@ -232,16 +224,17 @@ img {
 	background-color: rgb(229, 190, 1);
 	transform: rotate(-45deg);
 	border: none;
-	height: 10px;
-	width: 10px;
+	height: 15px;
+	width: 15px;
 }
 
 	.place:hover {
-		background-color: rgb(255, 200, 0);
+		opacity: 0.5;
 	}
 
 	.place:focus {
-		background-color: rgb(255, 200, 50);
+		border: solid;
+		border-color: rgb(255, 255, 255);
 	}
 
 	#place001 {
@@ -321,280 +314,33 @@ img {
 
 /* Responsive versione mobile */
 /* @media only screen and (max-width: 600px) {
-	#description {
+	#descriptionCity {
+		margin-top: 820px;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		max-width: 80%;
+		border: none;
+	}
+	#descriptionPlace {
 		margin-top: 420px;
 		margin-left: 5px;
 		margin-bottom: 10px;
 		max-width: 80%;
 		border: none;
 	}
-
-	img {
-		height: 360px;
-		margin-top: 30px;
-		margin-left: 30px;
+	#descriptionIsland {
+		margin-top: 420px;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		max-width: 80%;
+		border: none;
 	}
-
-/* City */
-	/* #Stabio {
-		height: 15px;
-		width: 15px;
-		margin-top: 372px;
-		margin-left: 210px;
-	}
-
-	#Chiasso {
-		height: 15px;
-		width: 15px;
-		margin-top: 372px;
-		margin-left: 240px;
-	}
-
-	#Mendrisio {
-		height: 15px;
-		width: 30px;
-		margin-top: 350px;
-		margin-left: 228px;
-	}
-
-	#Campione {
-		height: 15px;
-		width: 15px;
-		margin-top: 325px;
-		margin-left: 228px;
-	}
-
-	#Lugano {
-		height: 30px;
-		width: 15px;
-		margin-top: 285px;
-		margin-left: 205px;
-	}
-
-	#Rivera {
-		height: 15px;
-		width: 15px;
-		margin-top: 255px;
-		margin-left: 205px;
-	}
-
-	#Bellinzona {
-		height: 15px;
-		width: 30px;
-		margin-top: 205px;
-		margin-left: 205px;
-	}
-
-	#Tenero {
-		height: 15px;
-		width: 15px;
-		margin-top: 220px;
-		margin-left: 170px;
-	}
-
-	#Locarno {
-		height: 15px;
-		width: 30px;
-		margin-top: 220px;
-		margin-left: 120px;
-	}
-
-	#Sonogno {
-		height: 15px;
-		width: 15px;
-		margin-top: 150px;
-		margin-left: 170px;
-	}
-
-	#Maggia {
-		height: 15px;
-		width: 15px;
-		margin-top: 180px;
-		margin-left: 120px;
-	}
-
-	#Biasca {
-		height: 15px;
-		width: 15px;
-		margin-top: 140px;
-		margin-left: 205px;
-	}
-
-	#Ambrì {
-		height: 15px;
-		width: 15px;
-		margin-top: 90px;
-		margin-left: 150px;
-	}
-
-	#Airolo {
-		height: 15px;
-		width: 15px;
-		margin-top: 90px;
-		margin-left: 90px;
-	}
-
-	#Gottardo {
-		height: 15px;
-		width: 15px;
-		margin-top: 50px;
-		margin-left: 90px;
-	}
-
-/* route 
-	#route001 {
-		height: 15px;
-		width: 20px;
-		margin-top: 372px;
-		margin-left: 225px;
-	}
-
-	#route002 {
-		height: 12px;
-		width: 15px;
-		margin-top: 360px;
-		margin-left: 228px;
-	}
-
-	#route003 {
-		height: 30px;
-		width: 15px;
-		margin-top: 330px;
-		margin-left: 228px;
-	}
-
-	#route004 {
-		height: 15px;
-		width: 30px;
-		margin-top: 325px;
-		margin-left: 205px;
-	}
-
-	#route005 {
-		height: 15px;
-		width: 15px;
-		margin-top: 310px;
-		margin-left: 205px;
-	}
-
-	#route006 {
-		height: 25px;
-		width: 15px;
-		margin-top: 265px;
-		margin-left: 205px;
-	}
-
-	#route007 {
-		height: 45px;
-		width: 15px;
-		margin-top: 215px;
-		margin-left: 205px;
-	}
-
-	#route008 {
-		height: 15px;
-		width: 25px;
-		margin-top: 220px;
-		margin-left: 180px;
-	}
-
-	#route009 {
-		height: 60px;
-		width: 15px;
-		margin-top: 160px;
-		margin-left: 170px;
-	}
-
-	#route010 {
-		height: 15px;
-		width: 55px;
-		margin-top: 150px;
-		margin-left: 120px;
-	}
-
-	#route011 {
-		height: 40px;
-		width: 15px;
-		margin-top: 150px;
-		margin-left: 120px;
-	}
-
-	#route012 {
-		height: 35px;
-		width: 15px;
-		margin-top: 190px;
-		margin-left: 120px;
-	}
-
-	#route013 {
-		height: 15px;
-		width: 30px;
-		margin-top: 220px;
-		margin-left: 145px;
-	}
-
-	#route014 {
-		height: 60px;
-		width: 15px;
-		margin-top: 150px;
-		margin-left: 205px;
-	}
-
-	#route015 {
-		height: 55px;
-		width: 15px;
-		margin-top: 90px;
-		margin-left: 205px;
-	}
-
-	#route016 {
-		height: 15px;
-		width: 55px;
-		margin-top: 90px;
-		margin-left: 150px;
-	}
-
-	#route017 {
-		height: 15px;
-		width: 55px;
-		margin-top: 90px;
-		margin-left: 100px;
-	}
-
-	#route018 {
-		height: 50px;
-		width: 15px;
-		margin-top: 55px;
-		margin-left: 90px;
-	}
-
-/* places 
-	#grottaCeneri {
-		height: 15px;
-		width: 15px;
-		margin-top: 240px;
-		margin-left: 205px;
-	}
-
-	#zonaSafari {
-		height: 15px;
-		width: 15px;
-		margin-top: 235px;
-		margin-left: 180px;
-	}
-
-	#centrale {
-		height: 15px;
-		width: 15px;
-		margin-top: 75px;
-		margin-left: 170px;
-	}
-
-	#viaVittoria {
-		height: 15px;
-		width: 15px;
-		margin-top: 65px;
-		margin-left: 90px;
+	#descriptionRoute {
+		margin-top: 420px;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		max-width: 80%;
+		border: none;
 	}
 
 } */
