@@ -257,7 +257,7 @@ p {
 	h1 {
 		font-size: 20px;
 		margin-left: 5vh;
-		margin-right: 15vh;
+		margin-right: 20vh;
 	}
 
 	.menuVoci {
@@ -274,7 +274,7 @@ p {
 	}
 
 	.cards {
-		display:grid;
+		display: grid;
 	}
 
 	.card {
