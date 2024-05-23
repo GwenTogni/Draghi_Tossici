@@ -250,10 +250,6 @@ p {
 
 /* Responsive versione mobile */
 @media only screen and (max-width: 600px) {
-	.cartoon {
-		display: none;
-	}
-
 	h1 {
 		font-size: 20px;
 		margin-left: 5vh;
@@ -266,7 +262,7 @@ p {
 	}
 
 	.container>img {
-		max-width: 300px;
+		max-width: 100%;
 	}
 
 	.container>a {
