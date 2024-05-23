@@ -42,6 +42,27 @@ p {
 	color: rgb(255, 255, 255);
 }
 
+.home {
+	min-height: 80vh;
+	top: 20vh;
+	padding: 20px;
+	padding-bottom: 100px;
+	position: relative;
+	display: block;
+}
+
+	.home>a {
+		font-size: 18px;
+		text-decoration: none;
+		color: rgb(255,200,0);
+	}
+
+	.home>img {
+		max-width: 100%;
+		transition: transform 0.25s ease;
+		cursor: zoom-in;
+	}
+
 /* Contenuto */
 .container {
 	min-height: 80vh;
@@ -59,7 +80,7 @@ p {
 	}
 
 	.container>img {
-		max-width: 400px;
+		max-width: 40%;
 		transition: transform 0.25s ease;
  		cursor: zoom-in;
 	}
