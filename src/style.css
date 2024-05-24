@@ -30,6 +30,7 @@ h1 {
 .title {
 	margin-left: 0;
 	font-size: 90px;
+	font-style: italic;
 	color: rgb(255, 200, 0);
 }
 
@@ -53,6 +54,8 @@ button {
 	margin-top: 15px;
 	background-color: rgb(255, 200, 0);
 	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(0, 0, 0);
 	border: none;
 	border-radius: 20px;
 }
@@ -158,6 +161,10 @@ button {
 	position: fixed;
 }
 
+	.menuPulsante:hover {
+		background: none;
+	}
+
 	.menuPulsante>p {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -207,14 +214,14 @@ button {
 	margin-right: 20px;
 	text-decoration: none;
 	color: rgb(255, 255, 255);
-	border-radius: 10px;
+	border-radius: 15px;
   }
 
 	.containerCard {
 	padding: 2px 16px;
 	background-color: rgb(255,200,0);
 	bottom: 0;
-	border-radius: 0 0 10px 10px;
+	border-radius: 0 0 15px 15px;
 	}
 
 	.containerCard:hover {
